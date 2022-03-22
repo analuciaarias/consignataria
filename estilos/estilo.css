@@ -8,7 +8,63 @@
 body{
     background-color: whitesmoke;
     font-family: 'Roboto Condensed', sans-serif ;
+    
 }
+
+#servicios{
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(/imagenes/galeria/background.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    
+}
+
+
+
+
+.service{
+    
+    display: grid;
+    justify-content: space-evenly;
+    
+    grid-template-areas:
+    "servtitle servtitle servtitle" 
+    "uno . dos"
+    "tres . cuatro";
+    
+}
+.servtitle{
+    grid-area: servtitle;
+    margin: 30px auto;
+}
+.uno{
+    
+    grid-area: uno;
+    margin: 120px;
+}
+.dos{
+    
+    grid-area:dos;
+    margin: 120px;
+}
+.tres{
+    grid-area:tres;
+    margin: 120px;
+}
+.cuatro{
+    grid-area:cuatro;
+    margin: 120px;
+}
+.service li{
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+   
+}
+
+
 
 h1{
     color: rgb(75, 65, 65);
@@ -18,7 +74,8 @@ h1{
 h2{
     color: white;
     font-size: 40px;
-    text-align: left;
+    text-align: center;
+    
 }
 nav{
     padding: 0;
@@ -36,8 +93,8 @@ ul{
 li{
     display: inline-block;
     position: relative;
-    font-family: 'Roboto Condensed', sans-serif; 
-    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
     margin: 15px 25px ;
     
 }
@@ -167,12 +224,18 @@ footer{
     padding: 20px 50px;
   
 }
+.formbody{
+    background-image: url(/imagenes/galeria/background.jpg);
+    width: 100%;
+    height: 700px;
+}
+
   
 
 fieldset{
     background-color:rgb(210, 210, 214) ;
-    margin: 50px 150px 10rem 150px;
-    padding-bottom: 15px;
+    margin: 0px 200px;
+    padding: 5px;
     border-radius: 3px;
     display: flex;
     justify-content: center;
@@ -184,6 +247,7 @@ fieldset{
 legend{
     color: black;
     font-size: 2rem;
+    margin: 10px;
     font-weight: bold ;
     text-align: center;
 
