@@ -19,6 +19,7 @@ body{
     width: 100%;
     height: 800px;
     
+    
 }
 
 
@@ -183,6 +184,9 @@ footer{
 .select{
     font-weight: bold;
     border-bottom: 2px solid black;
+}
+.scale:hover{
+    transform: scale(2.2, 2.2)
 }
 
 
