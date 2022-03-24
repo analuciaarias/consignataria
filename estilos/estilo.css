@@ -9,7 +9,7 @@
 
 #servicios{
     font-family: 'Roboto Mono', monospace;
-    background-image: url(imagenes/galeria/background.jpg);
+    background-image: url("imagenes/galeria/background.jpg");
     background-repeat: no-repeat;
     text-align: center;
     width: 100%;
@@ -263,7 +263,7 @@ footer{
 
 
 .formbody{
-    background-image: url(imagenes/galeria/background.jpg);
+    background-image: url("imagenes/galeria/background.jpg");
     width: 100%;
     height: 700px;
 }
