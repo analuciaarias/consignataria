@@ -7,20 +7,14 @@
 
 
 
-#servicios{
-    font-family: 'Roboto Mono', monospace;
-    background-image: url("imagenes/galeria/background.jpg");
-    background-repeat: no-repeat;
+.servicios{
+    
+    background-image: url("../imagenes/background.jpg");
     text-align: center;
     width: 100%;
     height: 800px;
-    
-    
+       
 }
-
-
-
-
 .service{
     
     display: grid;
@@ -32,6 +26,7 @@
     "tres . cuatro";
 }
 .servtitle{
+    font-family: 'Roboto Mono', monospace;
     grid-area: servtitle;
     margin: 30px auto;
 }
@@ -46,10 +41,12 @@
     margin: 120px;
 }
 .tres{
+    
     grid-area:tres;
     margin: 120px;
 }
 .cuatro{
+    
     grid-area:cuatro;
     margin: 120px;
 }
@@ -263,7 +260,7 @@ footer{
 
 
 .formbody{
-    background-image: url("imagenes/galeria/background.jpg");
+    background-image: url("../imagenes/background.jpg");
     width: 100%;
     height: 700px;
 }
